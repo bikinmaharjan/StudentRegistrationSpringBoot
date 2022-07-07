@@ -64,7 +64,7 @@ $(document).ready(function () {
       type: 'DELETE',
       url: 'http://localhost:9999/students/' + id,
       success: function (student) {
-        alert('Student with ID ' + id + ' deleted fro DB');
+        alert('Student with ID ' + id + ' deleted from DB');
         location.reload(true);
       },
     });
